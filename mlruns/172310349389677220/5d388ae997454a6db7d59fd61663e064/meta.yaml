@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/surya/OneDrive/Desktop/mlops/advanced-mlflow/mlruns/172310349389677220/5d388ae997454a6db7d59fd61663e064/artifacts
+deleted_time: 1725471657733
+end_time: 1725471573551
+entry_point_name: ''
+experiment_id: '172310349389677220'
+lifecycle_stage: deleted
+run_id: 5d388ae997454a6db7d59fd61663e064
+run_name: persistent-hen-668
+run_uuid: 5d388ae997454a6db7d59fd61663e064
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725471573025
+status: 4
+tags: []
+user_id: surya

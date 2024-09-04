@@ -20,6 +20,7 @@ max_depth = 1
 n_estimators = 100
 
 # apply mlflow
+mlflow.autolog()
 
 mlflow.set_experiment('iris-rf')
 
@@ -33,10 +34,6 @@ with mlflow.start_run():
 
     accuracy = accuracy_score(y_test, y_pred)
 
-    mlflow.log_metric('accuracy', accuracy)
-
-    mlflow.log_param('max_depth', max_depth)
-    mlflow.log_param('n_estimators', n_estimators)
 
     # Create a confusion matrix plot
     cm = confusion_matrix(y_test, y_pred)
@@ -49,26 +46,9 @@ with mlflow.start_run():
     # Save the plot as an artifact
     plt.savefig("confusion_matrix.png")
 
-    # mlflow code
-    mlflow.log_artifact("confusion_matrix.png")
-
     mlflow.log_artifact(__file__)
-
-    mlflow.sklearn.log_model(rf, "random forest")
 
     mlflow.set_tag('author','suryansh')
     mlflow.set_tag('model','random forest')
-
-    train_df = X_train
-    train_df['variety'] = y_train
-
-    test_df = X_test
-    test_df['variety'] = y_test
-
-    train_df = mlflow.data.from_pandas(train_df)
-    test_df = mlflow.data.from_pandas(test_df)
-
-    mlflow.log_input(train_df, "train")
-    mlflow.log_input(test_df, "validation")
 
     print('accuracy', accuracy)

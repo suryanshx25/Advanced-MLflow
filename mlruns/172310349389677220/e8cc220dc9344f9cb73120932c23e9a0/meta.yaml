@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/surya/OneDrive/Desktop/mlops/advanced-mlflow/mlruns/172310349389677220/e8cc220dc9344f9cb73120932c23e9a0/artifacts
+end_time: 1725471637921
+entry_point_name: ''
+experiment_id: '172310349389677220'
+lifecycle_stage: active
+run_id: e8cc220dc9344f9cb73120932c23e9a0
+run_name: marvelous-worm-509
+run_uuid: e8cc220dc9344f9cb73120932c23e9a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725471608449
+status: 3
+tags: []
+user_id: surya

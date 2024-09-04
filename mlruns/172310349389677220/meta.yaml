@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/surya/OneDrive/Desktop/mlops/advanced-mlflow/mlruns/172310349389677220
+creation_time: 1725471336695
+experiment_id: '172310349389677220'
+last_update_time: 1725471336695
+lifecycle_stage: active
+name: iris-rf

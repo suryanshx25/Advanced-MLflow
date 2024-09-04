@@ -1,0 +1,10 @@
+digest: '86447323'
+name: dataset
+profile: '{"num_rows": 30, "num_elements": 120}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "sepal.length", "required":
+  true}, {"type": "double", "name": "sepal.width", "required": true}, {"type": "double",
+  "name": "petal.length", "required": true}, {"type": "double", "name": "petal.width",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "surya", "mlflow.source.name": "train_autolog.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "7deb9d778cc6be5cf50c8d1f30a60dbf0d1fd8f8"}}'
+source_type: code

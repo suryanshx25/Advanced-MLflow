@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/surya/OneDrive/Desktop/mlops/advanced-mlflow/mlruns/172310349389677220/f3c9753bef36466cb3392d0b4e05c3da/artifacts
+deleted_time: 1725471657725
+end_time: 1725471400263
+entry_point_name: ''
+experiment_id: '172310349389677220'
+lifecycle_stage: deleted
+run_id: f3c9753bef36466cb3392d0b4e05c3da
+run_name: gregarious-pig-579
+run_uuid: f3c9753bef36466cb3392d0b4e05c3da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725471399295
+status: 4
+tags: []
+user_id: surya
