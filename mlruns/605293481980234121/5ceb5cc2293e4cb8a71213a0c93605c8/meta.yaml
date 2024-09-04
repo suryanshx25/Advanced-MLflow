@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/surya/OneDrive/Desktop/mlops/advanced-mlflow/mlruns/605293481980234121/5ceb5cc2293e4cb8a71213a0c93605c8/artifacts
+deleted_time: 1725474099863
+end_time: 1725473625475
+entry_point_name: ''
+experiment_id: '605293481980234121'
+lifecycle_stage: deleted
+run_id: 5ceb5cc2293e4cb8a71213a0c93605c8
+run_name: gregarious-crane-318
+run_uuid: 5ceb5cc2293e4cb8a71213a0c93605c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725473613933
+status: 4
+tags: []
+user_id: surya

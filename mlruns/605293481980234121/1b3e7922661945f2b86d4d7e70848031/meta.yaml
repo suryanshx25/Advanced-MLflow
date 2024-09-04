@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/surya/OneDrive/Desktop/mlops/advanced-mlflow/mlruns/605293481980234121/1b3e7922661945f2b86d4d7e70848031/artifacts
+end_time: 1725474073634
+entry_point_name: ''
+experiment_id: '605293481980234121'
+lifecycle_stage: active
+run_id: 1b3e7922661945f2b86d4d7e70848031
+run_name: dapper-shark-861
+run_uuid: 1b3e7922661945f2b86d4d7e70848031
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725474047997
+status: 3
+tags: []
+user_id: surya
